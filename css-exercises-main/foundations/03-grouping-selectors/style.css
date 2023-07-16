@@ -1,0 +1,12 @@
+.bt-clickMe, .bt-dontClickMe {
+ font-family: Helvetica, "Times New Roman" sans-serif;
+ font-size: 28px;
+} 
+.bt-clickMe {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.bt-dontClickMe {
+    background-color: yellow;
+}
