@@ -2,41 +2,31 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
-  color: hsl(0, 0%, 0%);
+p > .para,
+.small-para,
+.text,
+.child {
   font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.para {
   font-size: 22px;
 }
 
-.confirm {
+.small-para, .child {
+  font-size: 14px;
+}
+
+button {
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-}
-
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
+.text {
   font-weight: 100;
 }
+
+
