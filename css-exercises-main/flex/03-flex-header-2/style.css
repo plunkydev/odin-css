@@ -19,6 +19,7 @@ body {
 .items {
   margin: auto 12px;
   display: flex;
+  gap: 18px;
 }
 
 .links {
