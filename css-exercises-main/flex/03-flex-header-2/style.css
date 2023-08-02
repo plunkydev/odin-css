@@ -24,6 +24,7 @@ body {
 .links {
   display: flex;
   gap: 18px;
+  font-weight: 500;
 }
 
 .profile-image {
