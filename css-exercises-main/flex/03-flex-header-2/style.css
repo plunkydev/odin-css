@@ -22,7 +22,8 @@ body {
 }
 
 .links {
-  
+  display: flex;
+  gap: 18px;
 }
 
 .profile-image {
